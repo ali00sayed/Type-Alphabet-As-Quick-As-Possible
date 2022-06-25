@@ -28,7 +28,7 @@ function Sap() {
         if (timer < 20) {
           return (timer += 1);
         } else {
-          setWord("Time Up!");
+          setWord("Success!");
           setFlag(true);
         }
       });
